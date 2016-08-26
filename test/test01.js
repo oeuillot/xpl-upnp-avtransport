@@ -5,6 +5,8 @@ var body  = fs.readFileSync("test01.xml");
 
 var xml = new Xmldoc.XmlDocument(body);
 
+console.log("body=",body);
+
 var sl=xml.valueWithPath("e:property.LastChange");
 
 console.log("LastChange=",sl);
