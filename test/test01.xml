@@ -3,16 +3,16 @@
   <e:property>
     <LastChange>&lt;Event xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/AVT/&quot;&gt;
       &lt;InstanceID val=&quot;0&quot;&gt;
-      &lt;TransportState val=&quot;PLAYING&quot;/&gt;
+      &lt;TransportState val=&quot;NO_MEDIA_PRESENT&quot;/&gt;
       &lt;TransportStatus val=&quot;OK&quot;/&gt;
-      &lt;PlaybackStorageMedium val=&quot;NETWORK&quot;/&gt;
+      &lt;PlaybackStorageMedium val=&quot;NONE&quot;/&gt;
       &lt;RecordStorageMedium val=&quot;NOT_IMPLEMENTED&quot;/&gt;
       &lt;CurrentPlayMode val=&quot;NORMAL&quot;/&gt;
       &lt;TransportPlaySpeed val=&quot;1&quot;/&gt;
       &lt;RecordMediumWriteStatus val=&quot;NOT_IMPLEMENTED&quot;/&gt;
       &lt;CurrentRecordQualityMode val=&quot;NOT_IMPLEMENTED&quot;/&gt;
-      &lt;NumberOfTracks val=&quot;8&quot;/&gt;
-      &lt;CurrentTrack val=&quot;1&quot;/&gt;
+      &lt;NumberOfTracks val=&quot;0&quot;/&gt;
+      &lt;CurrentTrack val=&quot;0&quot;/&gt;
       &lt;PossiblePlaybackStorageMedia val=&quot;UNKNOWN,NETWORK&quot;/&gt;
       &lt;PossibleRecordStorageMedia val=&quot;NOT_IMPLEMENTED&quot;/&gt;
       &lt;PossibleRecordQualityModes val=&quot;NOT_IMPLEMENTED&quot;/&gt;
@@ -21,13 +21,13 @@
       &lt;CurrentTrackMetaData val=&quot;&amp;lt;DIDL-Lite xmlns:dc=&amp;quot;http://purl.org/dc/elements/1.1/&amp;quot;
       xmlns:upnp=&amp;quot;urn:schemas-upnp-org:metadata-1-0/upnp/&amp;quot;
       xmlns=&amp;quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&amp;quot;&amp;gt;
-      &amp;lt;item id=&amp;quot;Preset 0&amp;quot;&amp;gt;&amp;lt;upnp:class&amp;gt;object.item.audioItem.audioB,roadcast&amp;lt;/upnp:class&amp;gt;&amp;lt;dc:title&amp;gt;Les plus belles comptines d'Europe - Ambarabà cici coco&amp;lt;/dc:title&amp;gt;&amp;lt;upnp:artist&amp;gt;Radio Pomme d'API&amp;lt;/upnp:artist&amp;gt;&amp;lt;res duration=&amp;quot;0:00:00&amp;quot; protocolInfo=&amp;quot;http-get:*:audio/mpeg:*&amp;quot;&amp;gt;http://radiopommedapi.ice.infomaniak.ch/radiopommedapi.mp3&amp;lt;/res&amp;gt;&amp;lt;/item&amp;gt;&amp;lt;/DIDL-Lite&amp;gt;&quot;/&gt;
+      &amp;lt;item&amp;gt;&amp;lt;upnp:class&amp;gt;object.item.audioItem.musicTrack&amp;lt;/upnp:class&am,p;gt;&amp;lt;/item&amp;gt;&amp;lt;/DIDL-Lite&amp;gt;&quot;/&gt;
       &lt;CurrentTrackURI val=&quot;unknown track uri&quot;/&gt;
       &lt;AVTransportURI val=&quot;http://radiopommedapi.ice.infomaniak.ch/radiopommedapi.mp3&quot;/&gt;
       &lt;AVTransportURIMetaData val=&quot;&amp;lt;DIDL-Lite xmlns:dc=&amp;quot;http://purl.org/dc/elements/1.1/&amp;quot;
       xmlns:upnp=&amp;quot;urn:schemas-upnp-org:metadata-1-0/upnp/&amp;quot;
       xmlns=&amp;quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&amp;quot;&amp;gt;
-      &amp;lt;item id=&amp;quot;Preset 0&amp;quot;&amp;gt;&amp;lt;upnp:class&amp;gt;object.item.audioItem.audioBroadcast&amp;lt;/upnp:class&amp;gt;&amp;lt;dc:title&amp;gt;Les plus belles comptines d'Europe - Ambarabà cici coco&amp;lt;/dc:title&amp;gt;&amp;lt;upnp:artist&amp;gt;Radio Pomme d'API&amp;lt;/upnp:artist&amp;gt;&amp;lt;res duration=&amp;quot;0:00:00&amp;quot; protocolInfo=&amp;quot;http-get:*:audio/mpeg:*&amp;quot;&amp;gt;http://radiopommedapi.ice.infomaniak.ch/radiopommedapi.mp3&amp;lt;/res&amp;gt;&amp;lt;/item&amp;gt;&amp;lt;/DIDL-Lite&amp;gt;&quo,t;/&gt;
+      &amp;lt;item&amp;gt;&amp;lt;upnp:class&amp;gt;object.item.audioItem.musicTrack&amp;lt;/upnp:class&amp;gt;&amp;lt;/item&amp;gt;&amp;lt;/DIDL-Lite&amp;gt;&quot;/&gt;
       &lt;NextAVTransportURI val=&quot;unknown next transport uri&quot;/&gt;
       &lt;NextAVTransportURIMetaData val=&quot;&quot;/&gt;
       &lt;CurrentTransportActions val=&quot;Play,Stop,Pause&quot;/&gt;
