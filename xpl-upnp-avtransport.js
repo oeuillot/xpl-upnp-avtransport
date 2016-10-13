@@ -79,6 +79,7 @@ commander
 				setInterval(() => {
 					debug("interval", "Search new devices ...")
 					client.search('urn:schemas-upnp-org:service:AVTransport:1');
+					client.search('urn:schemas-upnp-org:service:RenderingControl:1');
 				}, 5000);
 			});
 		});
