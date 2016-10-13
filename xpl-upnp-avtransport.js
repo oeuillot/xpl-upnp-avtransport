@@ -65,7 +65,11 @@ commander
 				}
 
 				xpl.on("xpl:xpl-cmnd", (message) => {
-					engine.processXplMessage(message);
+					engine.processXplMessage(message, (error) => {
+						if (error) {
+							console.error(error);
+						}
+					});
 				});
 
 				client.on('response', (headers, statusCode, rinfo) => {
