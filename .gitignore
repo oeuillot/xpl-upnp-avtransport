@@ -34,3 +34,4 @@ node_modules
 /xpl-upnp-avtransport.iml
 /.project
 /.idea/
+/usn-aliases.json

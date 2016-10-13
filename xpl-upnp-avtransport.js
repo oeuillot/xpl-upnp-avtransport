@@ -44,7 +44,7 @@ commander
 
 		xpl.bind(function (error) {
 			if (error) {
-				console.log("Can not open xpl bridge ", error);
+				console.error("Can not open xpl bridge ", error);
 				process.exit(2);
 				return;
 			}
@@ -55,11 +55,11 @@ commander
 
 			var client = new Client(commander);
 
-			var engine = new Engine(xpl, client);
+			var engine = new Engine(xpl, client, deviceAliases);
 
 			engine.initialize((error) => {
 				if (error) {
-					console.log("Can not initialize engine", error);
+					console.error("Can not initialize engine", error);
 					process.exit(3);
 					return;
 				}
@@ -73,6 +73,7 @@ commander
 				});
 
 				setInterval(() => {
+					debug("interval", "Search new devices ...")
 					client.search('urn:schemas-upnp-org:service:AVTransport:1');
 				}, 5000);
 			});
