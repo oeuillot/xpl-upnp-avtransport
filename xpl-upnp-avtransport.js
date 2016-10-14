@@ -39,7 +39,7 @@ commander
 		var xpl = new Xpl(commander);
 
 		xpl.on("error", function (error) {
-			console.log("XPL error", error);
+			console.error("XPL error", error);
 		});
 
 		xpl.bind(function (error) {
@@ -67,7 +67,7 @@ commander
 				xpl.on("xpl:xpl-cmnd", (message) => {
 					engine.processXplMessage(message, (error) => {
 						if (error) {
-							console.error(error);
+							console.error("error=", error);
 						}
 					});
 				});
