@@ -25,7 +25,7 @@ commander.command('run').description("Start listening upnp avtransports").action
 			hostName = hostName.substring(0, hostName.indexOf('.'));
 		}
 
-		commander.xplSource = "upnp-avtransport." + hostName;
+		commander.xplSource = "upnp-mediaRenderers." + hostName;
 	}
 
 	var deviceAliases = Xpl.loadDeviceAliases(commander.deviceAliases);
